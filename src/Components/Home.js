@@ -1,6 +1,7 @@
 import React from "react";
 
 const Home = (props) => {
+  console.log(props);
   return (
     <>
       <div>
@@ -48,6 +49,15 @@ const Home = (props) => {
                         >
                           {" "}
                           Add To Cart
+                        </button>
+
+                        <button
+                          onClick={() => {
+                            props.autoToCartRemover();
+                          }}
+                        >
+                          {" "}
+                          Remove To Cart
                         </button>
                       </div>
                     </div>
