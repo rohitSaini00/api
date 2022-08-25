@@ -1,12 +1,11 @@
 import "./App.css";
-import HeaderContainer from "./Container/HeaderContainer";
-import HomeContainer from "./Container/HomeContainer";
+import Home from "./Components/Home";
 
 function App() {
   return (
     <div className="App">
-      <HeaderContainer />
-      <HomeContainer />
+      <h1>Welcome To My Website</h1>
+      <Home />
     </div>
   );
 }

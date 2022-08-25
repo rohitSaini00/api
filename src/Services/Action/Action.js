@@ -1,14 +1,15 @@
-import { Add_To_Cart, Remove_To_Cart } from "../Constants";
+import { AddToNumber, RemoveToNumber } from "../Constants";
 
-export const addtoCart = (data) => {
+export const addData = (number) => {
   return {
-    type: Add_To_Cart,
-    data: data,
+    type: AddToNumber,
+    data: number,
   };
 };
 
-export const removetoCart = () => {
+export const prevData = (number) => {
   return {
-    type: Remove_To_Cart,
+    type: RemoveToNumber,
+    data: number,
   };
 };
