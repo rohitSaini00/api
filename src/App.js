@@ -1,11 +1,9 @@
 import "./App.css";
-import Home from "./Components/Home";
-
+import UseEffectApi from "./userEffectApi/UseEffectApi";
 function App() {
   return (
     <div className="App">
-      <h1>Welcome To My Website</h1>
-      <Home />
+      <UseEffectApi />
     </div>
   );
 }

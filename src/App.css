@@ -1,24 +1,51 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
 }
 h1 {
   text-align: center;
   font-weight: bold;
   margin-top: 20px;
 }
-.mybtn {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 100px;
+body {
+  background-color: aqua;
 }
-.mybtn button {
-  padding: 10px 30px;
-  font-size: 50px;
-  background-color: blueviolet;
-  color: white;
+
+.mycard {
+  background-color: white;
+  display: flex;
+  border-radius: 10px;
+}
+.haiding-data {
+  margin-left: 10px;
+}
+.haiding-data span {
+  display: block;
+
+  margin-top: -10px;
+  font-size: 13px;
+}
+
+.card-data {
+  padding: 15px;
+  margin-top: 20px;
+  text-overflow: break-word;
+}
+
+.mydata-img img {
+  border-radius: 50%;
+}
+.haiding-data button {
+  padding: 6px;
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: indigo;
   border: none;
 }
-p {
-  font-size: 70px;
+.haiding-data a {
+  color: white;
 }
