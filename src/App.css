@@ -9,43 +9,68 @@ a {
 h1 {
   text-align: center;
   font-weight: bold;
-  margin-top: 20px;
+  margin: 10px 0px;
 }
 body {
   background-color: aqua;
 }
 
 .mycard {
-  background-color: white;
-  display: flex;
+  background-color: #f2f2f2;
   border-radius: 10px;
+  padding: 10px;
+}
+.mycard h2 {
+  text-align: center;
+  font-weight: 600;
+}
+.box-data {
+  display: flex;
+  justify-content: space-between;
+  gap: 200px;
 }
 .haiding-data {
   margin-left: 10px;
 }
-.haiding-data span {
-  display: block;
-
-  margin-top: -10px;
-  font-size: 13px;
+.side-1 span {
+  margin-left: 40px;
 }
 
 .card-data {
-  padding: 15px;
+  padding: 20px 15pxS;
   margin-top: 20px;
   text-overflow: break-word;
 }
+.mytable th {
+  border: 2px solid black;
+  text-align: center;
+  padding: 15px 60px;
+}
+.mytable td {
+  color: grey;
+  padding: 20px 30px;
+}
+.mytable tr {
+  border: 2px solid black;
+  text-align: center;
+  padding: 15px;
+}
+.data {
+  margin-top: 10px;
+}
 
-.mydata-img img {
-  border-radius: 50%;
+.fecth-data span {
+  margin-left: 10px;
+  font-size: 18px;
 }
-.haiding-data button {
-  padding: 6px;
-  border-radius: 5px;
-  margin-top: 20px;
-  background-color: indigo;
-  border: none;
+.box {
+  display: grid;
+  place-items: center;
 }
-.haiding-data a {
-  color: white;
+select {
+  width: 400px;
+  text-align: center;
+}
+select .lt {
+  text-align: center;
 }
