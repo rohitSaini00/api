@@ -20,10 +20,7 @@ body {
   border-radius: 10px;
   padding: 10px;
 }
-.mycard h2 {
-  text-align: center;
-  font-weight: 600;
-}
+
 .box-data {
   display: flex;
   justify-content: space-between;
@@ -44,16 +41,16 @@ body {
 .mytable th {
   border: 2px solid black;
   text-align: center;
-  padding: 15px 60px;
+  padding: 10px 30px;
 }
 .mytable td {
   color: grey;
-  padding: 20px 30px;
+  padding: 15px 20px;
 }
 .mytable tr {
   border: 2px solid black;
   text-align: center;
-  padding: 15px;
+  padding: 12px;
 }
 .data {
   margin-top: 10px;
@@ -63,10 +60,42 @@ body {
   margin-left: 10px;
   font-size: 18px;
 }
-.box {
-  display: grid;
-  place-items: center;
+.mybox {
+  display: flex;
+  justify-content: space-evenly;
+}
+.option-select {
+  display: flex;
+  gap: 10px;
+}
+.state-data {
+  margin-top: 10px;
 }
 select {
   text-align: center;
+}
+.mytable {
+  margin-top: 20px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: bold;
+}
+.fetch-state-data P {
+  margin-top: 20px;
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+  .mybox {
+    flex-wrap: wrap;
+  }
+}
+@media (max-width: 768px) and (min-width: 320px) {
+  .mybox {
+    flex-wrap: wrap;
+  }
+  .option-select {
+    flex-wrap: wrap;
+  }
 }
